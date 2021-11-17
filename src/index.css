@@ -11,3 +11,110 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.parent{
+  display: flex;
+}
+
+.Navbar{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: wheat;
+}
+
+.heading{
+  color:white;
+  background-color: rgb(16, 3, 49);
+  padding: 5px 20px;
+  font-size:25px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  margin:10px;
+}
+
+.nav a{
+  padding:10px;
+  text-decoration: none;
+  color:rgb(16, 3, 49);
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.nav a:hover{
+  color:rgb(221, 100, 167);
+}
+
+.CreateForm{
+  background-color: rgb(16, 3, 49);
+  color:white;
+  font-family: sans-serif;
+  height:700px;
+  width: 700px;
+  padding:47px;
+}
+
+.form-inputs{
+  margin:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right:180px;
+}
+
+/* .form-inputs label{
+  padding: 10px;
+} */
+
+.form-inputs input{
+  padding:0px 15px;
+  height:30px;
+  width:190px;
+}
+
+.form-inputs p {
+  color:red;
+}
+
+.btn-input{
+  background-color: wheat;
+  color:rgb(16, 3, 49);
+  border:0px;
+  outline:0px;
+  padding: 5px 25px;
+  font-family: sans-serif;
+  border-radius: 2px;
+  margin:10px;
+}
+
+.showForm{
+  background-color: rgb(16, 3, 49);
+  color:white;
+  font-family: sans-serif;
+  font-style: normal;
+  height:700px;
+  width: 700px;
+  padding:47px; 
+  float: right;
+}
+
+.parentGrid img{
+  width:180px;
+  height:auto;
+  border:1px solid brown;
+  padding: 10px;
+  background-color: wheat;
+}
+
+.cart-btn button{
+  margin:10px;
+  padding:1px 15px;
+  font-size:20px;
+  border:0;
+  outline:0;
+  background-color:wheat;
+  color:brown;
+  border-radius:3px;
+  box-shadow: 1px 1px 1px rgb(68, 1, 1);
+}
